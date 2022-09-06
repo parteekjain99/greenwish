@@ -5,11 +5,22 @@ import Cocktail from '../Cocktail/cocktail'
 import OrdinaryDrinks from '../OrdinaryDrink/ordinarydrinks';
 import Shake from '../Shake/shake';
 import "./sidebar.css"; 
+
 const Home = () => {
   
   return (
     <>
 
+          <div className="sidebarItem">
+          <span className="sidebarTitle">MenU</span>
+          <div className="sidebarSocial">
+           <h2 ><a href="#sae">Cocktails</a></h2>
+           <h2 ><a href="#ordinaryshake">ordinarydrinks</a></h2>
+           <h2 ><a href="#softdrinks">softdrinks</a></h2>
+         <h2 ><a href="#shake">Shake</a></h2>
+          
+        </div>
+      </div>
     <div className="main">
       <h2  id="sae">
         cocktail
@@ -27,16 +38,7 @@ const Home = () => {
       <OrdinaryDrinks/>
     </div>
    
-      <div className="sidebarItem">
-        <span className="sidebarTitle">MenU</span>
-        <div className="sidebarSocial">
-         <h2 ><a href="#sae">Cocktails</a></h2>
-         <h2 ><a href="#ordinaryshake">ordinarydrinks</a></h2>
-         <h2 ><a href="#softdrinks">softdrinks</a></h2>
-         <h2 ><a href="#shake">Shake</a></h2>
-          
-        </div>
-      </div>
+      
     </>
   )
 }
