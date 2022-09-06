@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 10px 10px 10px 10px;
+} 
+
+.card {
+  height: 50px;
+  width: 500px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 1px;
+}
+ 
+
+
+
